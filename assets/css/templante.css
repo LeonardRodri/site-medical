@@ -143,3 +143,20 @@ a:hover {
     background-color: #2b4c99;
     color: white;
 }
+
+.banner_desc_horario{
+    flex-direction: column;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.dias{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
