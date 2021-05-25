@@ -139,7 +139,7 @@ nav a:hover {
     text-decoration: none;
 }
 
-.banner_options .active1 a {
-    background-color: #39aae1;
+a:hover {
+    background-color: #2b4c99;
     color: white;
 }
