@@ -144,7 +144,7 @@ a:hover {
     color: white;
 }
 
-.banner_desc_horario{
+.banner_desc_horario {
     flex-direction: column;
     padding: 5px;
     color: #ffffff;
@@ -153,10 +153,82 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.dias{
+.dias {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
     margin-bottom: 10px;
     padding-bottom: 5px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget_body {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.conteudo {
+    width: 100px;
+    height: 100px;
+    background: #00BFFF;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text-conteudo {
+    margin-top: 25px;
+}
+
+.consulta_contact {
+    margin-top: 30px;
+}
+
+.consulta_contact-item {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.consulta_contact-item:first-child {
+    border-top: 1px solid #ececec;
+}
+
+.consulta_contact-icon {
+    width: 25px;
+    height: 25px;
+    background: #cccccc;
+    margin-right: 15px;
 }
