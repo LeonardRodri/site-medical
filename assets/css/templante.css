@@ -132,7 +132,7 @@ nav a:hover {
 
 .banner_options a {
     display: inline-block;
-    border: 1px solid #ffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 5px;
     color: #ffffff;
     font-size: 12px;
@@ -190,19 +190,28 @@ a:hover {
     height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
+    transition: .5 all ease-in-out;
+}
+.widget_title_bar:hover {
+    width: 100%
 }
 
 .widget_body {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.widget_body_container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .conteudo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: #00BFFF;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .text-conteudo {
@@ -232,12 +241,8 @@ a:hover {
     margin-right: 15px;
 }
 
-.flex{
-    display: flex;
-}
 
-
-article a{
+article a {
     text-decoration: none;
 }
 
@@ -245,39 +250,61 @@ article .news_data {
     display: flex;
 }
 
-article .news_posted_at{
+article .news_posted_at {
     background-color: #2b4c99;
     color: #ffffff;
-    font-size:15px;
+    font-size: 15px;
     padding: 10px;
     margin-right: 2px;
 }
 
-article .news_comments{
+article .news_comments {
     background-color: #39aae1;
     color: #ffffff;
-    font-size:15px;
+    font-size: 15px;
     padding: 10px;
 }
 
-article .news_thumbnail{
+article .news_thumbnail {
     margin-top: 30px;
 }
 
-article .news_thumbnail img{
-    width:100%;
-    height:auto;
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
 }
 
-article .news_title{
+article .news_title {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 23px;
     color: black
 }
 
-article .news_resume{
+article .news_resume {
     color: #5c5c5c;
     line-height: 19px;
-    font-size:  14px;
+    font-size: 14px;
+}
+
+.widget_flex {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.ultimas_noticias {
+    display: flex;
+    flex: 2;
+}
+
+.department {
+    flex: 1;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.conteudo_noticias {}
+
+article {
+    width: 45%;
 }
