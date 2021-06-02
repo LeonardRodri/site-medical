@@ -21,7 +21,11 @@ header {
 
 .log {
     display: flex;
-    align-items: center;
+    align-items: center
+}
+
+.log a:hover{
+    text-decoration: none;
 }
 
 .menu {
@@ -164,6 +168,7 @@ a:hover {
 #geral {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 #geral section {
@@ -193,7 +198,7 @@ a:hover {
     transition: .5 all ease-in-out;
 }
 .widget_title_bar:hover {
-    width: 100%
+    width: 100%;
 }
 
 .widget_body {
@@ -307,4 +312,92 @@ article .news_resume {
 
 article {
     width: 45%;
+}
+
+footer {
+    background: rgb(36, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+.fm1, .fm2, .fm3{
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.fm1 {
+    background-color: #39aae1;
+    color: #ffffff;
+}
+
+.fm2 {
+    background-color: #0079c7;
+    color: #ffffff;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+    color: #ffffff;
+}
+
+.footer_area {
+    display: flex;
+
+}
+
+.footer_areaitem{
+    display: flex;
+    flex: 2;
+    color: #ffffff;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+footer .widget_title_text{
+    color: #ffffff;
+}
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size:12px;
+    margin-top:30px;
+}
+
+.footer_menu_title{
+    flex: 1;
+    font-size: 25px;
+} 
+.titulo_menu_desc{
+    flex: 1;
+    font-size:12px;
+    margin-top: 20px;
+}
+
+.footer_areaitem_desc{
+    font-size: 13px;
+    line-height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_areaitem_end{
+    flex: 1;
+    font-size: 13px;
+    margin-top:10px;
+}
+
+.footer_areaitem_tel_email{
+    flex: 1;
+    float: left;
+    font-size: 13px;
+    margin-top: 10px;
 }
