@@ -401,3 +401,91 @@ footer .widget_title_text{
     font-size: 13px;
     margin-top: 10px;
 }
+
+.menuMobile {
+    display:none;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_linha{
+    height:4px;
+    background-color: #39aae1;
+}
+
+@media (max-width:600px) {
+
+    .banner_headline{
+        padding: 15px;
+    }
+
+
+    .banner_headline h1{
+        font-size: 50px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 250px;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+    #geral section{
+        padding: 20px;
+    }
+    #geral aside{
+        padding: 20px;
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction:column;
+        padding: 20px;
+    }
+    .footer_copy{
+        padding-left: 20px;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    header{
+        height:auto;
+    }
+    
+    .log{
+        padding-left: 20px;
+    }
+    .menuMobile {
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

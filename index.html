@@ -7,6 +7,17 @@
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="assets/css/templante.css" />
     <title>Medicentery</title>
+	<script type="text/javascript">
+		window.onload = function () {
+			document.querySelector(".menuMobile").addEventListener("click", function () {
+				if (document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none';
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';
+				}
+			});
+		};
+	</script>
 </head>
 
 <body>
@@ -17,6 +28,11 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menuMobile">
+                        <div class="mm_linha"></div>
+                        <div class="mm_linha"></div>
+                        <div class="mm_linha"></div>
+                    </div>
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
                         <li><a href="">HOME</a></li>
